@@ -1,0 +1,35 @@
+{
+  "widgets": [
+    {
+      "type": "RecommendedItemView",
+      "objects": [
+        {
+          "url":"http://gd2.alicdn.com/imgextra/i2/1810079026/TB2vMVedZbI8KJjy1zdXXbe1VXa_!!1810079026.jpg",
+          "content":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "title": "title",
+          "like":"subtitle",
+          "comment":"subtitle"
+        },
+        {
+          "url":"http://gd2.alicdn.com/imgextra/i2/1810079026/TB2vMVedZbI8KJjy1zdXXbe1VXa_!!1810079026.jpg",
+          "content":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "title": "title",
+          "like":"subtitle",
+          "comment":"subtitle"
+        }
+      ]
+    },
+    {
+      "type": "MappingTable",
+      "objects": [
+        {
+          "key": "key",
+          "jsonkey": "jsonkey",
+          "value": "value",
+          "width": "width",
+          "height": "height"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_b2b2b2" />
+
+    <LinearLayout
+        android:id="@+id/diff_formview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_b2b2b2" />
+
+    <so.bubu.ui.test.mylibrary.wiget.TitleView
+        android:id="@+id/instruction"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="底部说明文字底部说明文字"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/instruction"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/color_e2e2e2"-->
+        <!--android:paddingBottom="3dp"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:paddingRight="10dp"-->
+        <!--android:paddingTop="3dp"-->
+        <!--android:text="底部说明文字"-->
+        <!--android:textColor="@color/color_b2b2b2"-->
+        <!--android:textSize="13sp" />-->
+</LinearLayout>

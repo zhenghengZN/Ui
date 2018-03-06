@@ -1,0 +1,134 @@
+{
+  "widgets": [
+    {
+      "type": "TypeTitleView",
+      "objects": [
+        {
+          "title": "Button",
+          "titleName": "按钮",
+          "backgroundColor":"#33d8d8d8"
+        }
+      ]
+    },
+    {
+      "type": "SolidButton",
+      "objects": [
+        {
+          "state": true,
+          "title": "页面主操作 Normal",
+          "size":"big",
+          "normalBackground": "#008b00",
+          "pressBackground": "#006400"
+        },
+        {
+          "state": false,
+          "size":"big",
+          "title": "页面主操作 Disabled",
+          "normalBackground": "#008b00"
+        }
+      ]
+    },
+    {
+      "type": "StrokeButton",
+      "objects": [
+        {
+          "state": true,
+          "title": "页面次要操作 Normal",
+          "size":"big",
+          "noramlTextColor": "#000000",
+          "pressTextColor":"#dd000000",
+          "normalStrokeColor": "#008b00",
+          "pressStrokeColor":"#dd008b00",
+          "normalBackground":"#43CD80",
+          "pressBackground": "#dd43CD80"
+        },
+        {
+          "state": false,
+          "title": "页面次要操作 Disabled",
+          "size":"big"
+        }
+      ]
+    },
+    {
+      "type": "SolidButton",
+      "objects": [
+        {
+          "state": true,
+          "title": "警告类操作 Normal",
+          "size":"big",
+          "normalBackground": "#ec2050",
+          "pressBackground": "#f50449"
+        },
+        {
+          "state": false,
+          "title": "警告类操作 Disabled",
+          "size":"big",
+          "normalBackground": "#ec2050"
+        }
+      ]
+    },
+    {
+      "type": "StrokeButton",
+      "objects": [
+        {
+          "state": true,
+          "title": "按钮",
+          "size":"middle",
+          "textColor": "#008B00",
+          "strokeColor": "#008B00",
+          "pressTextColor": "#77008B00"
+        },
+        {
+          "state": false,
+          "title": "按钮",
+          "size":"middle"
+        },
+        {
+          "state": true,
+          "title": "按钮",
+          "size":"middle",
+          "textColor": "#000000",
+          "strokeColor": "#000000",
+          "pressTextColor": "#77000000"
+        },
+        {
+          "state": false,
+          "title": "按钮",
+          "size":"middle"
+        }
+      ]
+    },
+    {
+      "type": "SolidButton",
+      "objects": [
+        {
+          "state": true,
+          "title": "按钮",
+          "size":"small",
+          "normalBackground": "#ec2050",
+          "pressBackground": "#f50449"
+        },
+        {
+          "state": true,
+          "title": "按钮",
+          "size":"small",
+          "normalBackground": "#ec2050",
+          "pressBackground": "#f50449"
+        }
+      ]
+    },
+    {
+      "type": "StrokeButton",
+      "objects": [
+        {
+          "state": true,
+          "title": "按钮",
+          "size":"small",
+          "textColor": "#000000",
+          "strokeColor": "#000000",
+          "pressTextColor": "#77000000"
+        }
+      ]
+    }
+  ]
+}

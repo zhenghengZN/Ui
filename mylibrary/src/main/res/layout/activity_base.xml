@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="so.bubu.ui.main.Demo.BaseActivity">
+
+    <include
+        android:id="@+id/base_top"
+        layout="@layout/common_activity_menu" />
+
+    <so.bubu.ui.test.mylibrary.wiget.MyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/base_scroll_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:descendantFocusability="blocksDescendants"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </so.bubu.ui.test.mylibrary.wiget.MyScrollView>
+</LinearLayout>

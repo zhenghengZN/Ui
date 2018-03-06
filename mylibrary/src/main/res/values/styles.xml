@@ -1,0 +1,190 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="normal_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/color_e2e2e2</item>
+    </style>
+
+    <style name="SwipeBackLayout">
+        <item name="edge_size">50dip</item>
+        <item name="shadow_left">@drawable/shadow_left</item>
+        <item name="shadow_right">@drawable/shadow_right</item>
+        <item name="shadow_bottom">@drawable/shadow_bottom</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <!--<style name="BaseAppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">-->
+    <!--</style>-->
+
+    <!--<style name="BaseAppTheme.NoActionBar" parent="@style/BaseAppTheme">-->
+    <!--<item name="windowActionBar">false</item>-->
+    <!--<item name="windowNoTitle">true</item>-->
+
+    <!--<item name="android:windowActionBar">false</item>-->
+    <!--<item name="android:windowNoTitle">true</item>-->
+    <!--</style>-->
+
+
+    <style name="BaseAppTheme.NoActionBar" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/baseApp_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/baseApp_colorPrimaryDark</item>
+        <item name="colorAccent">@color/baseApp_colorAccent</item>
+    </style>
+
+
+    <style name="BaseAppTheme.NoActionBar.SwipeBack" parent="@style/BaseAppTheme.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="buttonStart">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:textColor">@color/color_82cd6b</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="iconClickMe">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_width">25dp</item>
+    </style>
+
+    <style name="editText">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textColor">@color/color_82cd6b</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textCursorDrawable">@drawable/edittext_cursor_drawable</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:textColorHint">@color/color_b2b2b2</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+    <style name="searchText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color_b2b2b2</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="btn_default">
+        <!--<item name="android:stateListAnimator">@null</item>-->
+        <item name="stroke_radius">3dp</item>
+        <item name="stroke_text_normal_color">@android:color/black</item>
+        <item name="stroke_solid_normal_color">@color/btn_default_bg</item>
+        <item name="stroke_solid_pressed_color">@color/btn_default_active</item>
+        <item name="stroke_solid_disable_color">@color/btn_default_disable</item>
+        <item name="stroke_bg_normal_color">@color/color_b2b2b2</item>
+        <item name="stroke_bg_pressed_color">@color/color_b2b2b2</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="btn_primary">
+        <!--<item name="android:stateListAnimator">@null</item>-->
+        <item name="stroke_radius">3dp</item>
+        <item name="stroke_text_normal_color">@android:color/white</item>
+        <item name="stroke_solid_normal_color">@color/btn_primary_bg</item>
+        <item name="stroke_solid_pressed_color">@color/btn_primary_active</item>
+        <item name="stroke_solid_disable_color">@color/btn_primary_disable</item>
+        <item name="stroke_bg_normal_color">@color/color_008b00</item>
+        <item name="stroke_bg_pressed_color">@color/color_008b00</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="btn_warn">
+        <!--<item name="android:stateListAnimator">@null</item>-->
+        <item name="stroke_radius">3dp</item>
+        <item name="stroke_text_normal_color">@android:color/white</item>
+        <item name="stroke_solid_normal_color">@color/btn_warn_bg</item>
+        <item name="stroke_solid_pressed_color">@color/btn_warn_active</item>
+        <item name="stroke_solid_disable_color">@color/btn_warn_disable</item>
+        <item name="stroke_bg_normal_color">@color/red</item>
+        <item name="stroke_bg_pressed_color">@color/red</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+    <style name="PickDialog" >
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:windowBackground">@android:color/white</item>//必须还要再加上这一句才能看起来是满的
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="alert_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+
+    <style name="ucrop_ImageViewWidgetIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+
+    <style name="ucrop_WrapperIconState">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="ucrop_WrapperRotateButton">
+        <item name="android:layout_width">@dimen/ucrop_size_wrapper_rotate_button</item>
+        <item name="android:layout_height">@dimen/ucrop_size_wrapper_rotate_button</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="ucrop_TextViewCropAspectRatio">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/ucrop_height_crop_aspect_ratio_text</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:textColor">@color/ucrop_scale_text_view_selector</item>
+    </style>
+
+    <style name="ucrop_TextViewWidgetText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/ucrop_margit_top_widget_text</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/ucrop_text_size_widget_text</item>
+    </style>
+    <!--<style name="AppTheme" parent="AppBaseTheme">-->
+    <!--<item name="android:listDivider">@drawable/divider_bg</item>-->
+    <!--</style>-->
+</resources>

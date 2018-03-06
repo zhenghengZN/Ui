@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_e2e2e2">#e2e2e2</color>
+    <color name="color_ff6f06">#ec2050</color>
+    <color name="color_ff5000">#f50449</color>
+    <color name="colorPrimary">#ec2050</color>
+    <color name="color_b2b2b2">#b2b2b2</color>
+    <color name="color_686868">#686868</color>
+    <color name="color_ef5050">#ef5050</color>
+    <color name="color_select_bg">#F2F2F2</color>
+    <color name="color_add_appointment_list_no">#999999</color>
+    <color name="baseApp_colorPrimary">#000000</color>
+    <color name="baseApp_colorPrimaryDark">#000000</color>
+    <color name="baseApp_colorAccent">#000000</color>
+
+    <color name="colorPrimaryDark">#083939</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_82cd6b">#82cd6b</color>
+    <color name="color_menu_infor">#999999</color>
+    <color name="color_tab_line">#82CD6B</color>
+    <color name="color_press">#82cdaa</color>
+    <color name="text_tips_bg">#FEE6AA</color>
+    <color name="color_d8d8d8">#33d8d8d8</color>
+    <color name="color_un_select">#CFCFCF</color>
+    <color name="color_disable">#7782CD6B</color>
+    <color name="color_008b00">#008B00</color>
+    <color name="color_006400">#006400</color>
+    <color name="color_43CD80">#43CD80</color>
+    <color name="red">#ff0000</color>
+
+    <color name="warning">#F43530</color>
+    <color name="success">#09BB07</color>
+    <color name="circle">#C9C9C9</color>
+
+    <color name="btn_default_active">#DEDEDE</color>
+    <color name="btn_default_disable">#F7F7F7</color>
+    <color name="btn_default_bg">#F8F8F8</color>
+    <color name="btn_default_border_color">#11DEDEDE</color>
+    <color name="btn_default_activie_border_color">#66DEDEDE</color>
+
+    <color name="btn_primary_bg">#1AAD19</color>
+    <color name="btn_primary_active">#179B16</color>
+    <color name="btn_primary_disable">#9ED99D</color>
+    <color name="btn_primary_border_color">#111AAD19</color>
+    <color name="btn_primary_activie_border_color">#661AAD19</color>
+
+    <color name="btn_warn_bg">#E64340</color>
+    <color name="btn_warn_active">#CE3C39</color>
+    <color name="btn_warn_disable">#EC8B89</color>
+    <color name="btn_warn_border_color">#11E64340</color>
+    <color name="btn_warn_activie_border_color">#66E64340</color>
+
+    <color name="link_color">#586C94</color>
+
+    <color name="disable_text_color">#E6E6E6</color>
+
+    <!-- uploader Color-->
+    <color name="color_f6">#f6f6f6</color>
+    <color name="bar_grey">#393a3e</color>
+    <color name="grey">#999999</color>
+    <color name="tab_color_true">#2ED184</color>
+    <color name="color_f2">#F2F2F2</color>
+    <color name="image_overlay">#20000000</color>
+    <color name="image_overlay2">#80000000</color>
+    <color name="tab_color_false">#898B8F</color>
+    <color name="green">#2ED184</color>
+    <color name="ucrop_color_toolbar_widget">@android:color/white</color>
+    <color name="ucrop_color_widget_background">@android:color/white</color>
+    <color name="line_color">#EEEEEE</color>
+    <color name="radio_btn_circle_color">#c3c3c3</color>
+    <color name="bar_grey_90">#dd393a3e</color>
+    <color name="ucrop_color_default_logo">#4f212121</color>
+    <color name="ucrop_color_widget_active">#2ED184</color>
+    <color name="ucrop_color_default_dimmed">#8c000000</color>
+    <color name="ucrop_color_default_crop_frame">#2ED184</color>
+    <color name="ucrop_color_default_crop_grid">#80ffffff</color>
+    <color name="ucrop_color_progress_wheel_line">#808080</color>
+    <color name="blue">#00AFFF</color>
+</resources>

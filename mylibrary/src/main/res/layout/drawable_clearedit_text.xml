@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/layout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/username_edit_text_background"-->
+    <!--android:orientation="horizontal">-->
+
+    <merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/v_icon_user"
+        style="@style/iconClickMe" />
+
+    <so.bubu.ui.test.mylibrary.wiget.ClearEditText
+        android:id="@+id/edt_name"
+        style="@style/editText"
+        android:layout_marginLeft="6dp"
+        android:background="@null"
+        android:hint="hint" />
+
+    </merge>
+<!--</LinearLayout>-->
+

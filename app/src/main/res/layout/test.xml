@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <!--<so.bubu.ui.test.mylibrary.input.TextEditText-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="5dp"-->
+    <!--app:title_text="联系电话"-->
+    <!--app:hint_ems="4"-->
+    <!--app:mode="number"-->
+    <!--app:content_text_hint="请输入手机号"/>-->
+
+    <!--<so.bubu.ui.test.mylibrary.input.TextEditText-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="5dp"-->
+    <!--app:istitle="false"-->
+    <!--app:content_text_hint="测试"-->
+    <!--/>-->
+
+    <!--<so.bubu.ui.test.mylibrary.input.TextEditText-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="5dp"-->
+    <!--app:istitle="false"-->
+    <!--app:content_text_hint="测试"-->
+    <!--app:hasStrokeBg="true"-->
+    <!--/>-->
+
+    <!--<so.bubu.ui.test.mylibrary.input.TextEditText-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="5dp"-->
+    <!--app:title_text="测试"-->
+    <!--app:content_text_hint="测试"-->
+    <!--/>-->
+
+    <!--<so.bubu.ui.test.mylibrary.input.TextEditText-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="5dp"-->
+    <!--app:hasStrokeBg="true"-->
+    <!--app:content_text_hint="测试"-->
+    <!--app:title_text="测试"-->
+    <!--app:bg_stroke_width="2dp"-->
+    <!--app:hint_text_color="#00ff00"-->
+    <!--app:content_text_color="#0000ff"-->
+    <!--app:bg_stroke_color="#ff0000"/>-->
+
+    <!--<so.bubu.ui.test.mylibrary.input.TextEditText-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="5dp"-->
+    <!--app:hasStrokeBg="true"-->
+    <!--app:content_text_hint="测试"-->
+    <!--app:title_text="测试"-->
+    <!--app:bg_stroke_width="2dp"-->
+    <!--app:radius="6dp"-->
+    <!--app:mode="numbenrAnddecimal"-->
+    <!--app:bg_stroke_color="#ff0000"/>-->
+
+    <!--<so.bubu.ui.test.mylibrary.button.SolidButton-->
+    <!--android:id="@+id/submit"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="5dp"-->
+    <!--android:text="submit"-->
+    <!--app:solid_radius="0dp" />-->
+
+    <!--<so.bubu.ui.test.mylibrary.input.SwitchView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!--<RadioGroup-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--<RadioButton-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:drawableRight="@drawable/single_button_bg"-->
+    <!--android:button="@null"-->
+    <!--android:text="a" />-->
+
+    <!--<RadioButton-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:drawableRight="@drawable/single_button_bg"-->
+
+    <!--android:button="@null"-->
+    <!--android:text="b" />-->
+    <!--</RadioGroup>-->
+
+    <!--<so.bubu.ui.test.mylibrary.input.SingleCheckbox-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--app:check_title="aaaaa">-->
+
+    <!--</so.bubu.ui.test.mylibrary.input.SingleCheckbox>-->
+
+    <!--<so.bubu.ui.test.mylibrary.input.ListSingleButton-->
+    <!--android:id="@+id/listbutton"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--</so.bubu.ui.test.mylibrary.input.ListSingleButton>-->
+
+    <!--<so.bubu.ui.test.mylibrary.input.SwitchLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!-->-->
+
+    <!--</so.bubu.ui.test.mylibrary.input.SwitchLayout>-->
+
+    <!--<so.bubu.ui.test.mylibrary.input.TextArea-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="10dp">-->
+
+    <!--</so.bubu.ui.test.mylibrary.input.TextArea>-->
+
+    <!--<so.bubu.ui.test.mylibrary.input.checkBox.CheckGroup-->
+    <!--android:id="@+id/CheckGroup"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--app:isleftcheckbox="false">-->
+
+    <!--</so.bubu.ui.test.mylibrary.input.checkBox.CheckGroup>-->
+
+    <!--<so.bubu.ui.test.mylibrary.input.checkBox.AboutCheckBox-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--</so.bubu.ui.test.mylibrary.input.checkBox.AboutCheckBox>-->
+
+    <!--<so.bubu.ui.test.mylibrary.wiget.form.FormDatePick-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+    <!--</so.bubu.ui.test.mylibrary.wiget.form.FormDatePick>-->
+
+    <!--<so.bubu.ui.test.mylibrary.wiget.form.FormTextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+    <!--</so.bubu.ui.test.mylibrary.wiget.form.FormTextView>-->
+
+    <!--<so.bubu.ui.test.mylibrary.wiget.form.FormTextViewAndImage-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+    <!--</so.bubu.ui.test.mylibrary.wiget.form.FormTextViewAndImage>-->
+
+    <!--<so.bubu.ui.test.mylibrary.wiget.form.FormTwoTextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+    <!--</so.bubu.ui.test.mylibrary.wiget.form.FormTwoTextView>-->
+
+
+    <!--<so.bubu.ui.test.mylibrary.input.MoreCheckbox-->
+    <!--android:id="@+id/more_checkbox"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--</so.bubu.ui.test.mylibrary.input.MoreCheckbox>-->
+
+
+    <!--<so.bubu.ui.test.mylibrary.input.FormView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--</so.bubu.ui.test.mylibrary.input.FormView>-->
+
+    <!--<so.bubu.ui.test.mylibrary.input.ChooseInputView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--</so.bubu.ui.test.mylibrary.input.ChooseInputView>-->
+</ScrollView>

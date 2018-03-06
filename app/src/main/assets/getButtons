@@ -1,0 +1,97 @@
+{
+  "widgets": [
+    {
+      "type": "TypeTitleView",
+      "objects": [
+        {
+          "title": "Button",
+          "titleName": "按钮",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    },
+    {
+      "type": "StrokeButton",
+      "objects": [
+        {
+          "state": true,
+          "title": "页面主操作 Normal",
+          "size": "big",
+          "type": "pirmary"
+        },
+        {
+          "state": false,
+          "title": "页面主操作 Disable",
+          "size": "big",
+          "type": "pirmary"
+        },
+        {
+          "state": true,
+          "title": "页面次要操作 Normal",
+          "size": "big",
+          "type": "default"
+        },
+        {
+          "state": false,
+          "title": "页面次要操作 Disable",
+          "size": "big",
+          "type": "default"
+        },
+        {
+          "state": true,
+          "title": "警告类操作 Normal",
+          "size": "big",
+          "type": "warning"
+        },
+        {
+          "state": false,
+          "title": "警告类操作 Disable",
+          "size": "big",
+          "type": "warning"
+        },
+        {
+          "state": true,
+          "title": "按钮",
+          "size": "middle",
+          "type": "plaindefault"
+        },
+        {
+          "state": false,
+          "title": "按钮",
+          "size": "middle",
+          "type": "plaindefault"
+        },
+        {
+          "state": true,
+          "title": "按钮",
+          "size": "middle",
+          "type": "plainprimary"
+        },
+        {
+          "state": false,
+          "title": "按钮",
+          "size": "middle",
+          "type": "plainprimary"
+        },
+        {
+          "state": true,
+          "title": "按钮",
+          "size": "small",
+          "type": "pirmary"
+        },
+        {
+          "state": true,
+          "title": "按钮",
+          "size": "small",
+          "type": "default"
+        },
+        {
+          "state": true,
+          "title": "按钮",
+          "size": "small",
+          "type": "warning"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SwipeBackLayout">
+        <attr name="edge_size" format="dimension" />
+        <attr name="edge_flag">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="bottom" value="2" />
+            <enum name="all" value="3" />
+        </attr>
+        <attr name="shadow_left" format="reference" />
+        <attr name="shadow_right" format="reference" />
+        <attr name="shadow_bottom" format="reference" />
+    </declare-styleable>
+
+    <attr name="SwipeBackLayoutStyle" format="reference" />
+
+    <!-- actionbar 设置custom view里的后退按钮 -->
+    <attr name="ActionBarCustomViewNavigationup" format="reference"></attr>
+
+    <declare-styleable name="SolidButton">
+        <attr name="solid_radius" format="dimension" />
+        <attr name="solid_bg_normal_color" format="color" />
+        <attr name="solid_bg_pressed_color" format="color" />
+        <attr name="solid_text_normal_color" format="color" />
+        <attr name="solid_text_pressed_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="StrokeButton">
+        <attr name="stroke_radius" format="dimension" />
+        <attr name="stroke_bg_normal_color" format="color" />
+        <attr name="stroke_bg_pressed_color" format="color" />
+        <attr name="stroke_text_normal_color" format="color" />
+        <attr name="stroke_text_pressed_color" format="color" />
+        <attr name="stroke_solid_normal_color" format="color" />
+        <attr name="stroke_solid_pressed_color" format="color" />
+        <attr name="stroke_solid_disable_color" format="color" />
+        <attr name="stroke_width" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableTextView">
+        <attr name="maxCollapsedLines" format="integer" />
+        <attr name="animDuration" format="integer" />
+        <attr name="animAlphaStart" format="float" />
+        <attr name="expandDrawable" format="reference" />
+        <attr name="collapseDrawable" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="DrawableClearEditText">
+        <attr name="left_drawable" format="reference" />
+        <attr name="stroke_color" format="color" />
+        <attr name="text_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_widths" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="TagFlowLayout">
+        <attr name="max_select" format="integer" />
+        <attr name="max_line" format="integer" />
+        <attr name="tag_gravity">
+            <enum name="left" value="-1" />
+            <enum name="center" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!--<declare-styleable name="BannerView">-->
+    <!--<attr name="auto_play" format="boolean" />-->
+    <!--<attr name="delaytime" format="integer"/>-->
+    <!--<attr name="indicator_width" format="dimension" />-->
+    <!--<attr name="indicator_height" format="dimension" />-->
+    <!--<attr name="indicator_margin" format="dimension" />-->
+    <!--</declare-styleable>-->
+
+    <declare-styleable name="HotItemView">
+        <attr name="hot_image" format="reference" />
+        <attr name="hot_title" format="string" />
+        <attr name="hot_subtitle" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="TextEditText">
+        <!--<attr name="field_margin" format="integer" />-->
+        <attr name="text_size" format="dimension" />
+        <attr name="hint_text_color" format="color" />
+        <attr name="content_text_color" format="color" />
+        <attr name="hint_ems" format="integer" />
+        <attr name="content_text_hint" format="string" />
+        <attr name="istitle" format="boolean" />
+        <attr name="title_text" format="string" />
+
+        <attr name="mode">
+            <!--<enum name="default" value="0" />-->
+            <enum name="number" value="1" />
+            <enum name="numbenrAnddecimal" value="2" />
+        </attr>
+
+        <attr name="bg_stroke_color" format="color" />
+        <attr name="bg_stroke_width" format="dimension" />
+        <attr name="radius" format="dimension" />
+
+        <attr name="hasStrokeBg" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="SwitchView">
+        <attr name="hasShadow" format="boolean" />
+        <attr name="primaryColor" format="color" />
+        <attr name="primaryColorDark" format="color" />
+        <attr name="offColor" format="color" />
+        <attr name="offColorDark" format="color" />
+        <attr name="shadowColor" format="color" />
+        <attr name="ratioAspect" format="float" />
+        <attr name="isOpened" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SingleCheckbox">
+        <attr name="check_title" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CheckBox">
+        <attr name="text" format="reference|string" />
+        <!--单选/多选旁边的文本-->
+        <attr name="textColor" format="color|reference" />
+        <!--文本颜色-->
+        <attr name="textSize" format="dimension|reference" />
+        <!--文本大小-->
+        <attr name="middlePadding" format="dimension|integer" />
+        <!--单选/多选与文本之间的距离-->
+        <attr name="duration" format="integer" />
+        <!--动画时长-->
+        <attr name="strokeWidth" format="dimension" />
+        <!--选中时，勾的宽度以及未选中时描边的宽度-->
+        <attr name="colorTick" format="color|reference" />
+        <!--选中时勾的颜色-->
+        <attr name="colorChecked" format="color|reference" />
+        <!--选中时的背景色-->
+        <attr name="colorUnchecked" format="color|reference" />
+        <!--未选中时的背景色-->
+        <attr name="colorUncheckedStroke" format="color|reference" />
+        <!--未选中时,描边的颜色-->
+        <attr name="checkBoxWidth" format="dimension|integer" />
+        <!--单选/多选框的宽度-->
+        <attr name="checkBoxHeight" format="dimension|integer" />
+        <!--单选/多选框的高度-->
+        <attr name="isleftcheckbox" format="boolean" />
+        <attr name="shape" format="enum"><!--CheckView形状-->
+            <enum name="circle" value="0" />
+            <!--圆形-->
+            <enum name="square" value="1" />
+            <!--正方形-->
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ucrop_UCropView">
+
+        <!--Crop image view-->
+        <attr name="ucrop_aspect_ratio_x" format="float" />
+        <attr name="ucrop_aspect_ratio_y" format="float" />
+
+        <!--Overlay view-->
+        <attr name="ucrop_show_oval_crop_frame" format="boolean" />
+        <attr name="ucrop_circle_dimmed_layer" format="boolean" />
+        <attr name="ucrop_dimmed_color" format="color" />
+
+        <attr name="ucrop_grid_stroke_size" format="dimension" />
+        <attr name="ucrop_grid_color" format="color" />
+        <attr name="ucrop_grid_row_count" format="integer" />
+        <attr name="ucrop_grid_column_count" format="integer" />
+        <attr name="ucrop_show_grid" format="boolean" />
+
+        <attr name="ucrop_frame_stroke_size" format="dimension" />
+        <attr name="ucrop_frame_color" format="color" />
+        <attr name="ucrop_show_frame" format="boolean" />
+
+    </declare-styleable>
+
+    <declare-styleable name="ucrop_AspectRatioTextView">
+
+        <attr name="ucrop_artv_ratio_title" format="string" />
+
+        <attr name="ucrop_artv_ratio_x" format="float" />
+        <attr name="ucrop_artv_ratio_y" format="float" />
+
+    </declare-styleable>
+
+</resources>

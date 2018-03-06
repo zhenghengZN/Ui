@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/tab_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.flyco.tablayout.SlidingTabLayout
+            android:id="@+id/taobao_slidingTabLayout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/activity_top_height"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            tl:tl_indicator_color="@color/color_ff5000"
+            tl:tl_indicator_height="2dp"
+            tl:tl_tab_padding="10dp"
+            tl:tl_textSelectColor="@color/color_ff6f06"
+            tl:tl_textUnselectColor="@android:color/black"
+            tl:tl_textsize="15sp"
+            tl:tl_tab_space_equal="true"
+            tl:tl_underline_color="@color/color_d8d8d8"
+            tl:tl_underline_height="0.5dp" />
+
+    </LinearLayout>
+
+    <so.bubu.ui.test.mylibrary.wiget.FatherViewPager
+        android:id="@+id/tab_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/categroy_tab"
+        android:layout_weight="1"
+        android:overScrollMode="never" />
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/content"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+
+    <!--</LinearLayout>-->
+</LinearLayout>

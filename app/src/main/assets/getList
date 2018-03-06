@@ -1,0 +1,123 @@
+{
+  "widgets": [
+    {
+      "type": "TypeTitleView",
+      "objects": [
+        {
+          "title": "List",
+          "titleName": "列表"
+        }
+      ]
+    },
+    {
+      "type": "TitleView",
+      "objects": [
+        {
+          "title": "带说明的列表项"
+        }
+      ]
+    },
+    {
+      "type": "MineViewList",
+      "objects": [
+        {
+          "title": "标题文字",
+          "detail": "说明文字"
+        }
+      ]
+    },
+    {
+      "type": "TitleView",
+      "objects": [
+        {
+          "title": "带图标,说明的列表项"
+        }
+      ]
+    },
+    {
+      "type": "MineViewList",
+      "objects": [
+        {
+          "picUrl": "http://gd2.alicdn.com/imgextra/i2/1810079026/TB2vMVedZbI8KJjy1zdXXbe1VXa_!!1810079026.jpg",
+          "title": "标题文字",
+          "detail": "说明文字"
+        },
+        {
+          "picUrl": "http://gd2.alicdn.com/imgextra/i2/1810079026/TB2vMVedZbI8KJjy1zdXXbe1VXa_!!1810079026.jpg",
+          "title": "标题文字",
+          "detail": "说明文字"
+        }
+      ]
+    },
+    {
+      "type": "TitleView",
+      "objects": [
+        {
+          "title": "带跳转的列表项"
+        }
+      ]
+    },
+    {
+      "type": "MineViewList",
+      "objects": [
+        {
+          "title": "cell standard",
+          "url": "说明文字"
+        },
+        {
+          "title": "cell standard",
+          "url": "说明文字"
+        }
+      ]
+    },
+    {
+      "type": "TitleView",
+      "objects": [
+        {
+          "title": "带说明,跳转的列表项"
+        }
+      ]
+    },
+    {
+      "type": "MineViewList",
+      "objects": [
+        {
+          "title": "cell standard",
+          "detail": "说明文字",
+          "url": "说明文字"
+        },
+        {
+          "title": "cell standard",
+          "detail": "说明文字",
+          "url": "说明文字"
+        }
+      ]
+    },
+    {
+      "type": "TitleView",
+      "objects": [
+        {
+          "title": "带图标,说明,跳转的列表项"
+        }
+      ]
+    },
+    {
+      "type": "MineViewList",
+      "objects": [
+        {
+          "picUrl": "http://gd2.alicdn.com/imgextra/i2/1810079026/TB2vMVedZbI8KJjy1zdXXbe1VXa_!!1810079026.jpg",
+          "title": "cell standard",
+          "detail": "说明文字",
+          "url": "说明文字"
+        },
+        {
+          "picUrl": "http://gd2.alicdn.com/imgextra/i2/1810079026/TB2vMVedZbI8KJjy1zdXXbe1VXa_!!1810079026.jpg",
+          "title": "cell standard",
+          "detail": "说明文字",
+          "url": "说明文字"
+        }
+      ]
+    }
+  ]
+}
+

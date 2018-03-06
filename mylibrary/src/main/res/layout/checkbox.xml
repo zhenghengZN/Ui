@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<so.bubu.ui.test.mylibrary.input.checkBox.CheckBox
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    app:checkBoxHeight="22dp"
+    app:checkBoxWidth="22dp"
+    app:colorChecked="@color/color_43CD80"
+    app:middlePadding="12dp"
+    app:text="aaa"
+    app:textSize="17sp"/>
+

@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+    <!--<Button-->
+    <!--android:id="@+id/test"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!--<so.bubu.ui.test.mylibrary.button.SolidButton-->
+    <!--android:id="@+id/test1"-->
+    <!--style="@style/buttonStart"-->
+    <!--android:onClick="solidbtn"-->
+    <!--android:text="test"-->
+    <!--app:solid_radius="50dp"-->
+    <!--app:solid_bg_normal_color="@color/color_82cd6b"-->
+    <!--app:solid_bg_pressed_color="@color/color_82cd6b"-->
+    <!--app:solid_text_normal_color="@android:color/white"-->
+    <!--app:solid_text_pressed_color="@android:color/white"-->
+    <!--/>-->
+
+    <!--<so.bubu.ui.test.mylibrary.button.StrokeButton-->
+    <!--style="@style/buttonStart"-->
+    <!--android:onClick="strokebtn"-->
+    <!--android:text="test2"-->
+    <!--app:stroke_radius="50dp"-->
+    <!--app:stroke_width="1dp"-->
+    <!--app:stroke_bg_normal_color="@color/color_82cd6b"-->
+    <!--app:stroke_text_normal_color="@android:color/black"-->
+    <!--app:stroke_bg_pressed_color="@color/color_82cd6b"-->
+    <!--app:stroke_text_pressed_color="@android:color/black"-->
+    <!--/>-->
+
+    <!--<android.support.v7.widget.RecyclerView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@color/color_82cd6b"-->
+    <!--android:id="@+id/rcv"/>-->
+
+</LinearLayout>

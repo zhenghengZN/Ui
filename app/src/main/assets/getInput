@@ -1,0 +1,216 @@
+{
+  "hasMore": true,
+  "widgets": [
+    {
+      "type": "TypeTitleView",
+      "objects": [
+        {
+          "title": "Input",
+          "titleName": "表单输入"
+
+        }
+      ]
+    },
+    {
+      "type": "TitleView",
+      "objects": [
+        {
+          "title": "单选列表项"
+        }
+      ]
+    },
+    {
+      "type": "SingleCheckList",
+      "paramName": "singleChoice",
+      "selectedValue": "cell standard",
+      "objects": [
+        {
+          "title": "cell standard",
+          "url": "/redirectAppPage?page=scrollPage&function=getCouponItems"
+        },
+        {
+          "title": "cell standard1",
+          "url": "/redirectAppPage?page=scrollPage&function=getCouponItems"
+        }
+      ]
+    },
+    {
+      "type": "TitleView",
+      "objects": [
+        {
+          "title": "复选列表项"
+        }
+      ]
+    },
+    {
+      "type": "MoreCheckList",
+      "paramName": "MoreChoice",
+      "selectedValue": [
+        {
+          "value": "cell standard"
+        },
+        {
+          "value": "cell standard1"
+        }
+      ],
+      "objects": [
+        {
+          "title": "cell standard",
+          "url": "/redirectAppPage?page=scrollPage&function=getCouponItems"
+        },
+        {
+          "title": "cell standard1",
+          "url": "/redirectAppPage?page=scrollPage&function=getCouponItems"
+        }
+      ]
+    },
+    {
+      "type": "TitleView",
+      "objects": [
+        {
+          "title": "表单"
+        }
+      ]
+    },
+    {
+      "type": "Form",
+      "placeholder":"底部说明文字底部说明文字",
+      "objects": [
+        {
+          "type": "FormTextView",
+          "title": "qq",
+          "paramName": "qq",
+          "placeholder": "请输入qq"
+        },
+        {
+          "type": "FormTwoTextView",
+          "title": "手机号",
+          "buttonTitle": "获取验证码",
+          "paramName": "phone",
+          "placeholder": "请输入手机号"
+        },
+        {
+          "type": "FormDatePick",
+          "title": "日期",
+          "pickType": 1,
+          "paramName": "date"
+        },
+        {
+          "type": "FormDatePick",
+          "title": "时间",
+          "pickType": 2,
+          "paramName": "time"
+        },
+        {
+          "type": "FormTextViewAndImage",
+          "title": "验证码",
+          "paramName": "checkcode",
+          "placeholder": "请输入验证码"
+        }
+      ]
+    },
+    {
+      "type": "TitleView",
+      "objects": [
+        {
+          "title": "开关"
+        }
+      ]
+    },
+    {
+      "type": "SwitchView",
+      "objects": [
+        {
+          "paramName": "switch",
+          "title": "标题文字",
+          "selectedValue": false
+        }
+      ]
+    },
+    {
+      "type": "TitleView",
+      "objects": [
+        {
+          "title": "文本框"
+        }
+      ]
+    },
+    {
+      "type": "TextView",
+      "objects": [
+        {
+          "paramName": "textview",
+          "placeholder": "请输入文本"
+        }
+      ]
+    },
+    {
+      "type": "TitleView",
+      "objects": [
+        {
+          "title": "文本域"
+        }
+      ]
+    },
+    {
+      "type": "TextArea",
+      "objects": [
+        {
+          "paramName": "textArea",
+          "placeholder": "请输入文本",
+          "maxNum": 100
+        }
+      ]
+    },
+    {
+      "type": "TitleView",
+      "objects": [
+        {
+          "title": "选择"
+        }
+      ]
+    },
+    {
+      "type": "ChooseInputView",
+      "objects": [
+        {
+          "paramName": "phone",
+          "selectedValue": "+84",
+          "placeholder": "请输入号码",
+          "inputContent": [
+            {
+              "title": "+84"
+            },
+            {
+              "title": "+80"
+            },
+            {
+              "title": "+87"
+            },
+            {
+              "title": "+86"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "AboutCheckBox",
+      "paramName": "aboutcheck",
+      "selectedValue": false,
+      "objects": [
+        {
+          "url": ""
+        }
+      ]
+    },
+    {
+      "type": "SolidButton",
+      "objects": [
+        {
+          "title": "提 交"
+        }
+      ]
+    }
+  ]
+}

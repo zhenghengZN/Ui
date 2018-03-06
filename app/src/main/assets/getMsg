@@ -1,0 +1,40 @@
+{
+  "widgets": [
+    {
+      "type": "MsgView",
+      "objects": [
+        {
+          "resultCode": true,
+          "resultTitle": "操作成功",
+          "desc": "内容详情，可根据实际需要安排，如果换行则不超过规定长度，居中展现文本链接"
+        }
+      ]
+    },
+    {
+      "type": "StrokeButton",
+      "objects": [
+        {
+          "state": true,
+          "type": "pirmary",
+          "title": "推荐操作",
+          "size": "big"
+        },
+        {
+          "state": true,
+          "type": "default",
+          "title": "辅助操作",
+          "size": "big"
+        }
+      ]
+    },
+    {
+      "type": "FooterView",
+      "objects": [
+        {
+          "footerLinkText": "底部链接文本",
+          "footerText": "Copyright &#169; 2008-2016 weui.io"
+        }
+      ]
+    }
+  ]
+}

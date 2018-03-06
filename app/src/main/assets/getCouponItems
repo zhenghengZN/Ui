@@ -1,0 +1,124 @@
+{
+  "widgets": [
+    {
+      "type": "CouponItem",
+      "objects": [
+        {
+          "biz30Day": 37,
+          "category": "彩妆/香水/美妆工具",
+          "categoryId": 10,
+          "commision": 0.75,
+          "couponAmount": 10,
+          "couponEffectiveEndTime": "2017-12-30T15:59:59.000Z",
+          "couponRemain": 10000,
+          "couponShareUrl": "https://uland.taobao.com/coupon/edetail?e=tqIfYdOhq%2BAN%2BoQUE6FNzGPHTcqQ4ufIGZPSe9jdjR088L0dUrFHspPccAg7n0MpqjwLHlkAIdkCVzRffmjsmRpywujSvOp2nUIklpPPqYLEXRJ%2BB1et7NS8cpu%2BWjLoqwE8NLNX5iBD%2FBmXgrUwH%2BYsfTfahS6g&pid=mm_119950409_20916506_70766512&af=1&tj1=1&tj2=1",
+          "couponTotal": 10000,
+          "discountPrice": 25,
+          "displayCategory": "美妆_眼眉妆",
+          "finalPrice": 15,
+          "id": "5a2611821579a30062bf77c6",
+          "isFeatured": true,
+          "picUrl": "http://gd2.alicdn.com/imgextra/i2/1810079026/TB2vMVedZbI8KJjy1zdXXbe1VXa_!!1810079026.jpg",
+          "pickSubcategory": "",
+          "platform": "淘宝",
+          "subcategoryId": 12,
+          "title": "火烈鸟 梦幻卷翘璀璨浓密精细纤长睫毛膏"
+        },{
+          "biz30Day": 37,
+          "category": "彩妆/香水/美妆工具",
+          "categoryId": 10,
+          "commision": 0.75,
+          "couponAmount": 10,
+          "couponEffectiveEndTime": "2017-12-30T15:59:59.000Z",
+          "couponRemain": 10000,
+          "couponShareUrl": "https://uland.taobao.com/coupon/edetail?e=tqIfYdOhq%2BAN%2BoQUE6FNzGPHTcqQ4ufIGZPSe9jdjR088L0dUrFHspPccAg7n0MpqjwLHlkAIdkCVzRffmjsmRpywujSvOp2nUIklpPPqYLEXRJ%2BB1et7NS8cpu%2BWjLoqwE8NLNX5iBD%2FBmXgrUwH%2BYsfTfahS6g&pid=mm_119950409_20916506_70766512&af=1&tj1=1&tj2=1",
+          "couponTotal": 10000,
+          "discountPrice": 25,
+          "displayCategory": "美妆_眼眉妆",
+          "finalPrice": 15,
+          "id": "5a2611821579a30062bf77c6",
+          "isFeatured": true,
+          "picUrl": "http://gd2.alicdn.com/imgextra/i2/1810079026/TB2vMVedZbI8KJjy1zdXXbe1VXa_!!1810079026.jpg",
+          "pickSubcategory": "",
+          "platform": "淘宝",
+          "subcategoryId": 12,
+          "title": "火烈鸟 梦幻卷翘璀璨浓密精细纤长睫毛膏"
+        }
+      ]
+    },
+    {
+      "type": "MappingTable",
+      "objects": [
+        {
+          "key": "key",
+          "jsonkey": "jsonkey",
+          "value": "value",
+          "width": "width",
+          "height": "height"
+        },
+        {
+          "key": "product_img",
+          "jsonkey": "couponShareUrl",
+          "value": "大的淘宝图片",
+          "width": "115",
+          "height": "115"
+        },
+        {
+          "key": "taobao_pro_desc",
+          "jsonkey": "title",
+          "value": "火烈鸟 梦幻...",
+          "width": "",
+          "height": ""
+        },
+        {
+          "key": "taobao_platform",
+          "jsonkey": "platform",
+          "value": "小的淘宝图片",
+          "width": "15",
+          "height": "15"
+        },
+        {
+          "key": "taobao_discountPrice",
+          "jsonkey": "discountPrice",
+          "value": "淘宝价¥25",
+          "width": "",
+          "height": ""
+        },
+        {
+          "key": "biz30Day",
+          "jsonkey": "biz30Day",
+          "value": "月销:37",
+          "width": "",
+          "height": ""
+        },
+        {
+          "key": "taobao_much",
+          "jsonkey": "",
+          "value": "卷后¥",
+          "width": "",
+          "height": ""
+        },
+        {
+          "key": "taobao_finalPrice",
+          "jsonkey": "finalPrice",
+          "value": "15",
+          "width": "",
+          "height": ""
+        },
+        {
+          "key": "couponAmount",
+          "jsonkey": "couponAmount",
+          "value": "立减10元",
+          "width": "95",
+          "height": "24"
+        },{
+          "key": "CouponItem",
+          "jsonkey": "",
+          "value": "",
+          "width": "match_parent",
+          "height": "137"
+        }
+      ]
+    }
+  ]
+}

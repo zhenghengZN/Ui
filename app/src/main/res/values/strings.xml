@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="text_menu_img_num">%s张</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_button">ButtonActivity</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_upload_test">UploadTestActivity</string>
+</resources>

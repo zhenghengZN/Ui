@@ -1,0 +1,18 @@
+{
+  "widgets": [
+    {
+      "type": "ActionSheet",
+      "objects": [
+        {
+          "title": "A"
+        },
+        {
+          "title": "B"
+        },
+        {
+          "title": "C"
+        }
+      ]
+    }
+  ]
+}

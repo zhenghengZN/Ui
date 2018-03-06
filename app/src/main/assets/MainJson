@@ -1,0 +1,149 @@
+{
+  "widgets": [
+    {
+      "type": "TypeTitleView",
+      "objects": [
+        {
+          "title": "UI",
+          "titleName": "UI"
+        }
+      ]
+    },
+    {
+      "type": "ItemSelection",
+      "headerTitle": "步步UI",
+      "objects": [
+        {
+          "title": "CouponItem",
+          "url": "/redirectAppPage?page=scrollPage&function=getCouponItems"
+        },
+        {
+          "title": "GridCouponItem",
+          "url": "/redirectAppPage?page=scrollPage&function=getGridCouponItems"
+        },
+        {
+          "title": "HotItemView",
+          "url": "/redirectAppPage?page=scrollPage&function=getHotItemView"
+        },
+        {
+          "title": "VideoItem",
+          "url": "/redirectAppPage?page=scrollPage&function=getVideoItem"
+        },
+        {
+          "title": "GridItemView",
+          "url": "/redirectAppPage?page=scrollPage&function=getGridItem"
+        },
+        {
+          "title": "TravelsItemView",
+          "url": "/redirectAppPage?page=scrollPage&function=getTravelsItems"
+        },
+        {
+          "title": "RecommendedItemView",
+          "url": "/redirectAppPage?page=scrollPage&function=getRecommendedItems"
+        },
+        {
+          "title": "SharePopMenu",
+          "url": "/redirectAppPage?page=scrollPage&function=getSharePopMenu"
+        },
+        {
+          "title": "CommentItem",
+          "url": "/redirectAppPage?page=scrollPage&function=getCommentItem"
+        }
+      ]
+    },
+    {
+      "type": "ItemSelection",
+      "headerTitle": "表单",
+      "objects": [
+        {
+          "title": "button",
+          "url": "/redirectAppPage?page=InputActivity&function=getButtons"
+        },
+        {
+          "title": "list",
+          "url": "/redirectAppPage?page=InputActivity&function=getList"
+        },
+        {
+          "title": "input",
+          "url": "/redirectAppPage?page=InputActivity&function=getInput"
+        }
+      ]
+    },
+    {
+      "type": "ItemSelection",
+      "headerTitle": "操作反馈",
+      "objects": [
+        {
+          "title": "actionsheet",
+          "url": "/redirectAppPage?page=DialogActivity&function=getActionSheet"
+        },
+        {
+          "title": "dialog",
+          "url": "/redirectAppPage?page=DialogActivity&function=getDialog"
+        },
+        {
+          "title": "msg",
+          "url": "/redirectAppPage?page=DialogActivity&function=getMsg"
+        },
+        {
+          "title": "picker",
+          "url": "/redirectAppPage?page=DialogActivity&function=getPicker"
+        },
+        {
+          "title": "toast",
+          "url": "/redirectAppPage?page=DialogActivity&function=getToast"
+        }
+      ]
+    },
+    {
+      "type": "ItemSelection",
+      "headerTitle": "EditView",
+      "objects": [
+        {
+          "title": "DrawableClearEditText",
+          "url": "/redirectAppPage?page=scrollPage&function=getDrawableClearEditText"
+        },
+        {
+          "title": "ClearEditText",
+          "url": "/redirectAppPage?page=scrollPage&function=getClearEditText"
+        }
+      ]
+    },
+    {
+      "type": "ItemSelection",
+      "headerTitle": "Page",
+      "objects": [
+        {
+          "title": "ScrollPage",
+          "url": "/redirectAppPage?page=scrollPage"
+        },
+        {
+          "title": "TabPage",
+          "url": "/redirectAppPage?page=tabPage&function=page"
+        },
+        {
+          "title": "ContainPage",
+          "url": "/redirectAppPage?page=ContainPage&function=getPageImage"
+        },
+        {
+          "title": "SearchPage",
+          "url": "/redirectAppPage?page=searchPage&function=HotSearch"
+        },
+        {
+          "title": "BannerPage",
+          "url": "/redirectAppPage?page=BannerPage&function=getBanner"
+        }
+      ]
+    },
+    {
+      "type": "ItemSelection",
+      "headerTitle": "AllItemDemo",
+      "objects": [
+        {
+          "title": "Demo",
+          "url": "/redirectAppPage?page=scrollPage&function=TestJson"
+        }
+      ]
+    }
+  ]
+}
