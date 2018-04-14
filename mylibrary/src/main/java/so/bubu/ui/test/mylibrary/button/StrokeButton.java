@@ -6,9 +6,7 @@ import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
 import android.graphics.Color;
 import android.graphics.drawable.GradientDrawable;
-import android.graphics.drawable.ShapeDrawable;
 import android.graphics.drawable.StateListDrawable;
-import android.graphics.drawable.shapes.RoundRectShape;
 import android.os.Build;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -25,12 +23,11 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.LinkedHashMap;
 
-import Utils.MyJsonUtil;
-import Utils.ResourceUtil;
-import Utils.StringUtils;
+import Util.MyJsonUtil;
+import Util.ResourceUtil;
+import Util.StringUtils;
 import so.bubu.ui.test.mylibrary.R;
 import so.bubu.ui.test.mylibrary.bean.ParamAndSelect;
 

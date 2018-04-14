@@ -6,13 +6,12 @@ import android.widget.ImageView;
 import java.util.HashMap;
 import java.util.LinkedList;
 
-import Utils.CommonMethod;
-import Utils.GlideHelper;
-import Utils.ResourceUtil;
+import Util.CommonMethod;
+import Util.GlideHelper;
+import Util.ResourceUtil;
 import so.bubu.ui.test.mylibrary.Adapter.common.ComRecyclerViewAdapter;
 import so.bubu.ui.test.mylibrary.Adapter.common.RecyclerViewHolder;
 import so.bubu.ui.test.mylibrary.R;
-import so.bubu.ui.test.mylibrary.bean.TravelsBean;
 
 /**
  * Created by zhengheng on 18/1/10.

@@ -3,12 +3,10 @@ package so.bubu.ui.test.mylibrary.Dialog;
 import android.app.Dialog;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
 import android.view.Gravity;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.Button;
 import android.widget.TextView;
 
 import org.json.JSONArray;
@@ -18,7 +16,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import Utils.MyJsonUtil;
+import Util.MyJsonUtil;
 import so.bubu.ui.test.mylibrary.R;
 import so.bubu.ui.test.mylibrary.wiget.pickTimeView.PickTimeView;
 import so.bubu.ui.test.mylibrary.wiget.pickTimeView.PickValueView;

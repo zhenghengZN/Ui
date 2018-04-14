@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.Handler;
 import android.text.Editable;
-import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -14,7 +13,6 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -23,8 +21,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import Utils.MyJsonUtil;
-import Utils.StringUtils;
+import Util.MyJsonUtil;
 import so.bubu.ui.test.mylibrary.Dialog.PickerDialog;
 import so.bubu.ui.test.mylibrary.R;
 

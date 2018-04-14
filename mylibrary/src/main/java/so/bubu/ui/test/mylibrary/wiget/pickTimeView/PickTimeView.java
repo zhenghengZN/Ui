@@ -12,7 +12,7 @@ import android.widget.TextView;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-import Utils.ResourceUtil;
+import Util.ResourceUtil;
 
 public class PickTimeView extends LinearLayout implements NumberPicker.OnValueChangeListener {
     private final String TAG = getClass().getSimpleName();

@@ -7,7 +7,6 @@ import android.graphics.drawable.GradientDrawable;
 import android.os.Handler;
 import android.text.Editable;
 import android.text.InputType;
-import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.util.AttributeSet;
 import android.view.Gravity;
@@ -20,7 +19,7 @@ import android.widget.TextView;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import Utils.ResourceUtil;
+import Util.ResourceUtil;
 import so.bubu.ui.test.mylibrary.R;
 
 /**

@@ -20,7 +20,7 @@ import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-import Utils.ResourceUtil;
+import Util.ResourceUtil;
 import so.bubu.ui.test.mylibrary.R;
 import so.bubu.ui.test.mylibrary.wiget.NoScrollListView;
 import so.bubu.ui.test.mylibrary.input.checkBox.entity.Option;

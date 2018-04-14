@@ -4,13 +4,9 @@ package so.bubu.ui.test.mylibrary.page.tab;
 import android.os.Bundle;
 
 import android.support.v4.app.Fragment;
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import com.flyco.tablayout.SlidingTabLayout;
 
@@ -20,7 +16,7 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-import Utils.MyJsonUtil;
+import Util.MyJsonUtil;
 import so.bubu.ui.test.mylibrary.R;
 import so.bubu.ui.test.mylibrary.wiget.FatherViewPager;
 

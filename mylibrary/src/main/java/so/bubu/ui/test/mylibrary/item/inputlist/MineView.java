@@ -1,7 +1,6 @@
 package so.bubu.ui.test.mylibrary.item.inputlist;
 
 import android.content.Context;
-import android.graphics.Bitmap;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,16 +11,13 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.net.URL;
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 
-import Utils.GlideHelper;
-import Utils.MyJsonUtil;
-import Utils.StringUtils;
+import Util.GlideHelper;
+import Util.MyJsonUtil;
+import Util.StringUtils;
 import so.bubu.ui.test.mylibrary.R;
 
 /**

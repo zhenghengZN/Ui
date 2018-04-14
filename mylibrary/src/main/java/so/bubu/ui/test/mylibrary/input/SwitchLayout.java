@@ -8,11 +8,9 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import Utils.ResourceUtil;
 import so.bubu.ui.test.mylibrary.R;
 
 /**

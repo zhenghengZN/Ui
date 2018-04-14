@@ -1,22 +1,19 @@
 package so.bubu.ui.test.mylibrary.Adapter;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
 import android.view.Gravity;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 import java.util.HashMap;
 import java.util.LinkedList;
 
-import Utils.GlideHelper;
-import Utils.ResourceUtil;
+import Util.GlideHelper;
+import Util.ResourceUtil;
 import so.bubu.ui.test.mylibrary.Adapter.common.ComRecyclerViewAdapter;
 import so.bubu.ui.test.mylibrary.Adapter.common.RecyclerViewHolder;
 import so.bubu.ui.test.mylibrary.R;
-import so.bubu.ui.test.mylibrary.bean.GridBean;
 
 /**
  * Created by zhengheng on 18/1/10.

@@ -8,13 +8,12 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.HashMap;
 
-import Utils.MyJsonUtil;
-import Utils.StringUtils;
+import Util.MyJsonUtil;
+import Util.StringUtils;
 import so.bubu.ui.test.mylibrary.R;
 
 /**

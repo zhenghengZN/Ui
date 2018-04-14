@@ -15,19 +15,16 @@ import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
-import java.util.List;
 
-import Utils.CommonMethod;
-import Utils.DeviceHelper;
-import Utils.GlideHelper;
-import Utils.ResourceUtil;
+import Util.CommonMethod;
+import Util.DeviceHelper;
+import Util.GlideHelper;
+import Util.ResourceUtil;
 import so.bubu.ui.test.mylibrary.Adapter.common.ComRecyclerViewAdapter;
 import so.bubu.ui.test.mylibrary.Adapter.common.RecyclerViewHolder;
 import so.bubu.ui.test.mylibrary.R;
-import so.bubu.ui.test.mylibrary.bean.ShareBean;
 import so.bubu.ui.test.mylibrary.page.common.BaseApplication;
 
 /**

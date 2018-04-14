@@ -11,7 +11,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import Utils.ResourceUtil;
+import Util.ResourceUtil;
 import so.bubu.ui.test.mylibrary.R;
 
 /**

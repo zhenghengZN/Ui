@@ -13,7 +13,7 @@ import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
-import Utils.ResourceUtil;
+import Util.ResourceUtil;
 import so.bubu.ui.test.mylibrary.R;
 
 public class CheckBox extends LinearLayout {

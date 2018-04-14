@@ -11,42 +11,20 @@
         android:label="@string/app_name"
         android:theme="@style/BaseAppTheme.NoActionBar.SwipeBack">
 
-        <!--<provider-->
-            <!--android:name="android.support.v4.content.FileProvider"-->
-            <!--android:authorities="${applicationId}.fileProvider"-->
-            <!--android:exported="false"-->
-            <!--android:grantUriPermissions="true">-->
-            <!--<meta-data-->
-                <!--android:name="android.support.FILE_PROVIDER_PATHS"-->
-                <!--android:resource="@xml/file_paths" />-->
-        <!--</provider>-->
-
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
-            <!--<intent-filter>-->
-            <!--<action android:name="android.intent.action.MAIN" />-->
-
-            <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
         </activity>
         <activity
             android:name=".TabActivity"
             android:label="@string/title_activity_tab" />
-        <!--<activity android:name=".ImageActivity" />-->
         <activity android:name=".PhotoActivity">
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN" />-->
-
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
         </activity>
         <activity android:name=".ImageTopActivity" />
         <activity
             android:name=".TestSearchActivity"
             android:windowSoftInputMode="adjustPan" />
         <activity android:name=".TestActivity" />
-        <!-- <activity android:name="Activity.ImagePageActivity"/> -->
         <activity
             android:name=".ButtonActivity"
             android:label="@string/title_activity_button" />

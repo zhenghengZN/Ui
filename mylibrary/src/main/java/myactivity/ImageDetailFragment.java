@@ -13,7 +13,7 @@ import com.squareup.picasso.Picasso;
 
 import java.io.File;
 
-import Utils.DeviceHelper;
+import Util.DeviceHelper;
 import so.bubu.ui.test.mylibrary.R;
 import uk.co.senab.photoview.PhotoView;
 import uk.co.senab.photoview.PhotoViewAttacher;

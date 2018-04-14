@@ -1,27 +1,12 @@
 package so.bubu.ui.test.myapplication;
 
 
-import android.app.Activity;
 import android.content.Intent;
-import android.os.Bundle;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
-
-import com.chad.library.adapter.base.BaseQuickAdapter;
-import com.chad.library.adapter.base.BaseViewHolder;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -30,27 +15,13 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.LinkedList;
-import java.util.List;
 
-import Utils.MyJsonUtil;
-import Utils.ResourceUtil;
-import so.bubu.ui.test.mylibrary.Adapter.CommentItemAdapter;
-import so.bubu.ui.test.mylibrary.Adapter.GridItemAdapter;
-import so.bubu.ui.test.mylibrary.Adapter.MultipleItem;
-import so.bubu.ui.test.mylibrary.Adapter.RecommendedAdapter;
-import so.bubu.ui.test.mylibrary.Adapter.TravelsAdapter;
-import so.bubu.ui.test.mylibrary.Adapter.TypeDiffItemAdapter;
+import Util.MyJsonUtil;
 import so.bubu.ui.test.mylibrary.Adapter.common.RecyclerViewHolder;
-import so.bubu.ui.test.mylibrary.button.SolidButton;
-import so.bubu.ui.test.mylibrary.button.StrokeButton;
 import so.bubu.ui.test.mylibrary.item.ItemSelection;
 import so.bubu.ui.test.mylibrary.item.SharePopMenu;
 import so.bubu.ui.test.mylibrary.page.common.BaseActivity;
-import so.bubu.ui.test.mylibrary.wiget.ClearEditText;
-import so.bubu.ui.test.mylibrary.wiget.DrawableClearEditText;
 import so.bubu.ui.test.mylibrary.wiget.TypeTitleView;
-
-import static so.bubu.ui.test.mylibrary.Adapter.TypeDiffItemAdapter.*;
 
 public class MainActivity extends BaseActivity {
 

@@ -1,18 +1,15 @@
 package so.bubu.ui.test.mylibrary.Adapter;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
-import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-import Utils.DeviceHelper;
-import Utils.GlideHelper;
-import Utils.ResourceUtil;
+import Util.DeviceHelper;
+import Util.GlideHelper;
+import Util.ResourceUtil;
 import so.bubu.ui.test.mylibrary.Adapter.common.CommonAdapter;
 import so.bubu.ui.test.mylibrary.Adapter.common.ViewHolder;
 import so.bubu.ui.test.mylibrary.R;

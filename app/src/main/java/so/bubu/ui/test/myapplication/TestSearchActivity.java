@@ -1,18 +1,15 @@
 package so.bubu.ui.test.myapplication;
 
 import android.os.Bundle;
-import android.view.View;
-import android.widget.TextView;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
-import Utils.MyJsonUtil;
+import Util.MyJsonUtil;
 import so.bubu.ui.test.mylibrary.page.SeachActivity;
 
 /**

@@ -1,38 +1,24 @@
 package so.bubu.ui.test.mylibrary.input;
 
-import android.app.Activity;
 import android.content.Context;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.HashMap;
-import java.util.Iterator;
 import java.util.LinkedHashMap;
 
-import Utils.ResourceUtil;
-import Utils.StringUtils;
+import Util.ResourceUtil;
 import so.bubu.ui.test.mylibrary.R;
 import so.bubu.ui.test.mylibrary.wiget.TitleView;
 import so.bubu.ui.test.mylibrary.wiget.form.FormDatePick;
 import so.bubu.ui.test.mylibrary.wiget.form.FormTextView;
 import so.bubu.ui.test.mylibrary.wiget.form.FormTextViewAndImage;
 import so.bubu.ui.test.mylibrary.wiget.form.FormTwoTextView;
-import so.bubu.ui.test.mylibrary.wiget.pickTimeView.PickTimeView;
 
 /**
  * Created by zhengheng on 18/1/29.

@@ -9,15 +9,13 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 
-import Utils.MyJsonUtil;
-import Utils.ResourceUtil;
-import Utils.StringUtils;
+import Util.MyJsonUtil;
+import Util.ResourceUtil;
+import Util.StringUtils;
 import so.bubu.ui.test.mylibrary.R;
 
 /**

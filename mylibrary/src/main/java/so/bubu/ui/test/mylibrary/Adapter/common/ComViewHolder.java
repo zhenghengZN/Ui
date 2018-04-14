@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import Utils.GlideHelper;
+import Util.GlideHelper;
 
 /**
  * Created by zhengheng on 17/12/29.

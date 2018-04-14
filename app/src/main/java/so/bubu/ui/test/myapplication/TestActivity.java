@@ -16,8 +16,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 
-import Utils.MyJsonUtil;
-import Utils.ResourceUtil;
+import Util.MyJsonUtil;
+import Util.ResourceUtil;
 import so.bubu.ui.test.mylibrary.button.SolidButton;
 import so.bubu.ui.test.mylibrary.input.ChooseInputView;
 import so.bubu.ui.test.mylibrary.input.FormView;

@@ -11,8 +11,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 
-import Utils.MyJsonUtil;
-import so.bubu.ui.test.mylibrary.button.SolidButton;
+import Util.MyJsonUtil;
 import so.bubu.ui.test.mylibrary.button.StrokeButton;
 import so.bubu.ui.test.mylibrary.page.common.BaseActivity;
 import so.bubu.ui.test.mylibrary.wiget.TypeTitleView;

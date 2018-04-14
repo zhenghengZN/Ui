@@ -18,19 +18,12 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import java.util.ArrayList;
 import java.util.Collections;
 //import java.util.LinkedHashSet;
 import java.util.List;
-import java.util.Set;
 
-import Utils.HistorySqlLite;
-import Utils.MyJsonUtil;
-import Utils.SPUtil;
+import Util.HistorySqlLite;
 import so.bubu.ui.test.mylibrary.R;
 import so.bubu.ui.test.mylibrary.page.common.BaseCompatActivity;
 import so.bubu.ui.test.mylibrary.wiget.ClearEditText;

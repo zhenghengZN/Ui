@@ -11,7 +11,6 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.FrameLayout;
-import android.widget.GridView;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
@@ -19,19 +18,17 @@ import com.bumptech.glide.request.animation.GlideAnimation;
 import com.bumptech.glide.request.target.SimpleTarget;
 import com.chad.library.adapter.base.BaseMultiItemQuickAdapter;
 
-import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
-import com.chad.library.adapter.base.entity.MultiItemEntity;
 
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 
-import Utils.CommonMethod;
-import Utils.DeviceHelper;
-import Utils.GlideHelper;
-import Utils.ResourceUtil;
-import Utils.transformation.RoundedCornersTransformation;
+import Util.CommonMethod;
+import Util.DeviceHelper;
+import Util.GlideHelper;
+import Util.ResourceUtil;
+import Util.transformation.RoundedCornersTransformation;
 import so.bubu.ui.test.mylibrary.R;
 import so.bubu.ui.test.mylibrary.page.helper.Helper;
 import so.bubu.ui.test.mylibrary.wiget.CircleImageView;

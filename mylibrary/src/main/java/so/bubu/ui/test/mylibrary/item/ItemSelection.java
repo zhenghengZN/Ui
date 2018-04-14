@@ -8,15 +8,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
 
-import java.util.ArrayList;
-
-import Utils.MyJsonUtil;
-import Utils.StringUtils;
+import Util.StringUtils;
 import so.bubu.ui.test.mylibrary.R;
-import so.bubu.ui.test.mylibrary.item.inputlist.MineViewLayout;
 import so.bubu.ui.test.mylibrary.item.inputlist.MineViewList;
 
 /**

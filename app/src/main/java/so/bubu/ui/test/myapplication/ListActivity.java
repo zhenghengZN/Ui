@@ -11,7 +11,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 
-import Utils.MyJsonUtil;
+import Util.MyJsonUtil;
 import so.bubu.ui.test.mylibrary.item.inputlist.MineViewLayout;
 import so.bubu.ui.test.mylibrary.page.common.BaseActivity;
 import so.bubu.ui.test.mylibrary.wiget.TitleView;

@@ -42,9 +42,9 @@
     <string name="picture_select_photo">选择相册</string>
     <string name="picture_select_video">选择视频</string>
 
-    <string name="picture_please_select">请选择</string>
+    <string name="picture_please_select">完成</string>
 
-    <string name="picture_lately_image">图片</string>
+    <string name="picture_lately_image">所有图片</string>
     <string name="picture_lately_video">最近视频</string>
 
     <string name="picture_no_photo">相册空空如也，赶紧去拍几张吧~</string>
@@ -57,5 +57,5 @@
     <string name="ucrop_image_crop">图片裁剪</string>
     <string name="picture_determine">确定</string>
     <string name="picture_please">请稍候...</string>
-    <!--<string -->
+    <!--<完成(0/9)> &#160;空格-->
 </resources>

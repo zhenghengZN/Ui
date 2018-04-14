@@ -8,9 +8,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import Utils.CommonMethod;
-import Utils.DeviceHelper;
-import Utils.GlideHelper;
+import Util.CommonMethod;
+import Util.DeviceHelper;
+import Util.GlideHelper;
 import so.bubu.ui.test.mylibrary.R;
 
 /**
