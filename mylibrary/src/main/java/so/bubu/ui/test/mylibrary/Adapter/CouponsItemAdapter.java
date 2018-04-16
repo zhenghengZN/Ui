@@ -5,6 +5,7 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.bumptech.glide.request.RequestOptions;
 
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -55,17 +56,18 @@ public abstract class CouponsItemAdapter extends ComRecyclerViewAdapter {
 
     public static void displayImageByResizeasBitmap(Context context, String url, int targetWidth, int targetHeight, ImageView targetView) {
 
-        Glide
-                .with(context)
-                .load(url)
-//                .crossFade()
-                .asBitmap()
+        RequestOptions options = new RequestOptions()
+                .centerCrop()
+                .diskCacheStrategy(DiskCacheStrategy.RESOURCE)
                 .placeholder(R.drawable.imagebackground)
                 .error(R.drawable.imagebackground)
-                .override(targetWidth, targetHeight)
-                .diskCacheStrategy(DiskCacheStrategy.SOURCE)
-                .centerCrop()
-//                .animate(animationObject)
+                .override(targetWidth, targetHeight);
+
+        Glide
+                .with(context)
+                .asBitmap()
+                .load(url)
+                .apply(options)
                 .into(targetView);
     }
 }

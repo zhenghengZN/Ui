@@ -6,9 +6,10 @@
     <string name="title_activity_tab">TabActivity</string>
     <string name="text_menu_img_num">%s张</string>
 
-<!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_button">ButtonActivity</string>
     <string name="title_activity_list">ListActivity</string>
     <string name="title_activity_upload_test">UploadTestActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
 </resources>

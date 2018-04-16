@@ -3,6 +3,9 @@ package so.bubu.ui.test.mylibrary.Adapter;
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.Gravity;
@@ -14,8 +17,9 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.request.animation.GlideAnimation;
+import com.bumptech.glide.RequestBuilder;
 import com.bumptech.glide.request.target.SimpleTarget;
+import com.bumptech.glide.request.transition.Transition;
 import com.chad.library.adapter.base.BaseMultiItemQuickAdapter;
 
 import com.chad.library.adapter.base.BaseViewHolder;
@@ -184,15 +188,15 @@ public abstract class TypeDiffItemAdapter extends BaseMultiItemQuickAdapter<Mult
 
                 SimpleTarget target = new SimpleTarget<Bitmap>(ResourceUtil.Dp2Px(44), ResourceUtil.Dp2Px(44)) {
                     @Override
-                    public void onResourceReady(Bitmap bitmap, GlideAnimation glideAnimation) {
-                        iconImg.setImageBitmap(bitmap);
+                    public void onResourceReady(@NonNull Bitmap resource, @Nullable Transition<? super Bitmap> transition) {
+                        iconImg.setImageBitmap(resource);
                     }
                 };
 
                 if (Helper.isNotEmpty((String) object.get("userPicUrl"))) {
                     Glide.with(mContext.getApplicationContext())
-                            .load((String) object.get("userPicUrl"))
                             .asBitmap()
+                            .load((String) object.get("userPicUrl"))
                             .into(target);
                 } else {
                     iconImg.setImageResource(R.drawable.pho_user_head);
