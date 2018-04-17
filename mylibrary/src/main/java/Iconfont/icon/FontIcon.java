@@ -1,5 +1,7 @@
 package Iconfont.icon;
 
+import android.util.Log;
+
 import Iconfont.util.TypefaceManager;
 
 /**
@@ -429,7 +431,7 @@ public enum FontIcon implements Icon {
     ICON_CODE_OPPOSE_FILL_LIGHT(0xe846),
     ICON_CODE_OPPOSE_LIGHT(0xe847);
 
-    private final int mIconUtfValue;
+    private int mIconUtfValue;
 
     private FontIcon(int iconUtfValue) {
         mIconUtfValue = iconUtfValue;
@@ -446,4 +448,5 @@ public enum FontIcon implements Icon {
     public int getIconUtfValue() {
         return mIconUtfValue;
     }
+
 }

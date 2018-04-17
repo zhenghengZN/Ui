@@ -28,14 +28,14 @@ public interface Icon extends Serializable {
 
     /**
      * Gets a {@link Typeface} for an Icon.
-     * 
+     *
      * @return {@link TypefaceManager.IconicTypeface}
      */
     TypefaceManager.IconicTypeface getIconicTypeface();
 
     /**
      * Returns UTF value of an Icon.
-     * 
+     *
      * @return UTF value of an Icon
      */
     int getIconUtfValue();

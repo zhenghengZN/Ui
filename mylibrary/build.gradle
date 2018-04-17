@@ -49,6 +49,7 @@ dependencies {
     compile 'com.github.chrisbanes.photoview:library:1.2.4'
     compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.33'
     compile 'com.github.LuckSiege.PictureSelector:picture_library:v2.1.9'
+//    compile 'com.github.kazy1991:FontDrawable:0.9.4'
 //    compile ('com.alibaba.android:vlayout:1.2.8@aar') {
 //        transitive = true
 //    }

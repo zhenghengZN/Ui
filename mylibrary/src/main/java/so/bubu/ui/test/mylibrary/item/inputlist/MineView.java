@@ -1,6 +1,7 @@
 package so.bubu.ui.test.mylibrary.item.inputlist;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,7 +16,10 @@ import org.json.JSONObject;
 
 import java.util.HashMap;
 
+import Iconfont.IconicFontDrawable;
+import Iconfont.IconicFontUtil;
 import Util.GlideHelper;
+import Util.IconFontUtil;
 import Util.MyJsonUtil;
 import Util.StringUtils;
 import so.bubu.ui.test.mylibrary.R;
@@ -62,10 +66,11 @@ public class MineView extends LinearLayout {
             name.setVisibility(VISIBLE);
             name.setText(title);
         }
-        String leftUrl = (String) objects.get("picUrl");
+        String leftUrl = (String) objects.get("iconFontCode");
         if (StringUtils.isNull(leftUrl)) {
             layout.setVisibility(VISIBLE);
-            GlideHelper.display(getContext(), leftUrl, leftIcon);
+            IconicFontDrawable iconfont = IconFontUtil.createIconfont(leftUrl, Color.BLACK);
+            leftIcon.setBackground(iconfont);
         }
         String detail = (String) objects.get("detail");
         if (StringUtils.isNull(detail)) {

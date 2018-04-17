@@ -41,6 +41,7 @@ import android.graphics.RectF;
 import android.graphics.drawable.Drawable;
 
 import Iconfont.icon.Icon;
+import Iconfont.util.TypefaceManager;
 
 /**
  * A custom {@link Drawable} which can display icons from icon fonts.
@@ -83,6 +84,11 @@ public class IconicFontDrawable extends Drawable {
     }
 
     public IconicFontDrawable(Context context, final Icon icon) {
+        this(context);
+        updateIcon(icon);
+    }
+
+    public IconicFontDrawable(Context context, final int icon) {
         this(context);
         updateIcon(icon);
     }
@@ -194,7 +200,7 @@ public class IconicFontDrawable extends Drawable {
 
     @Override
     public void draw(Canvas canvas) {
-        if (mIcon != null) {
+//        if (mIcon != null) {
             Rect viewBounds = getBounds();
 
             updatePaddingBounds(viewBounds);
@@ -226,7 +232,7 @@ public class IconicFontDrawable extends Drawable {
             }
 
             canvas.drawPath(mPath, mIconPaint);
-        }
+//        }
     }
 
     @Override
@@ -258,6 +264,14 @@ public class IconicFontDrawable extends Drawable {
         mIcon = icon;
         mIconUtfChars = Character.toChars(icon.getIconUtfValue());
         mIconPaint.setTypeface(mIcon.getIconicTypeface().getTypeface(mContext));
+    }
+
+
+    private void updateIcon(int icon) {
+//        mIcon = icon;
+        mIconUtfChars = Character.toChars(icon);
+        mIconPaint.setTypeface(TypefaceManager.IconicTypeface.CITYGUIDE.getTypeface(mContext));
+//        mIconPaint.setTypeface(mIcon.getIconicTypeface().getTypeface(mContext));
     }
 
     private void updatePaddingBounds(Rect viewBounds) {
